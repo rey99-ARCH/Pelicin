@@ -1,0 +1,21 @@
+name: Pelicin
+options:
+  bundleIdPrefix: com.kindmops
+targets:
+  Pelicin:
+    type: application
+    platform: iOS
+    deploymentTarget: "16.0"
+    sources: [Sources]
+    info:
+      path: Sources/Info.plist
+      properties:
+        CFBundleDisplayName: Pelicin
+        UILaunchScreen: {}
+        UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.kindmops.pelicin
+        SWIFT_VERSION: "5.9"
+        MARKETING_VERSION: "1.0"
+        CURRENT_PROJECT_VERSION: "1"
